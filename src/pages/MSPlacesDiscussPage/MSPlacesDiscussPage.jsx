@@ -1,5 +1,6 @@
 import "./MSPlacesDiscussPage.scss";
 import ModalElement from "../../components/ModalElement/ModalElement";
+import { Link } from "react-router-dom";
 
 export default function MSPlacesDiscussPage() {
     return (
@@ -12,10 +13,12 @@ export default function MSPlacesDiscussPage() {
                         mirror pointed towards you 24/7, which one would you choose? Why?”
                     </p>
                     <div className="discuss__content-buttons">
-                        <button className="discuss__content-buttons-indv">Discuss in Public</button>
-                        <button className="discuss__content-buttons-indv">
+                        <Link to="/live" className="discuss__content-buttons-indv">
+                            Discuss in Public
+                        </Link>
+                        <Link to="/live" className="discuss__content-buttons-indv">
                             Discuss in Private
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

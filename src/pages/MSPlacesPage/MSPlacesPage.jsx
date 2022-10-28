@@ -1,5 +1,6 @@
 import "./MSPlacesPage.scss";
 import ModalElement from "../../components/ModalElement/ModalElement";
+import { Link } from "react-router-dom";
 
 export default function MSPlacesPage() {
     return (
@@ -22,9 +23,11 @@ export default function MSPlacesPage() {
                     <div className="ms-places__boxes-indv">
                         <p>Communicate</p>
                     </div>
-                    <div className="ms-places__boxes-indv">
-                        <p>Connect</p>
-                    </div>
+                    <Link to="/waiting" className="remove-link">
+                        <div className="ms-places__boxes-indv">
+                            <p>Connect</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

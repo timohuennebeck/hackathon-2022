@@ -6,22 +6,20 @@ import MSPlacesDiscussPage from "./pages/MSPlacesDiscussPage/MSPlacesDiscussPage
 import MSVideoPage from "./pages/MSVideoPage/MSVideoPage";
 import HomePage from "./pages/HomePage/HomePage";
 
-
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navigate to="/homepage" />} />
-        </Routes>
-        {/* <MSPlacesPage /> */}
-        {/* <MSPlacesWaitingPage /> */}
-        {/* <MSVideoPage /> */}
-        {/* <MSPlacesDiscussPage /> */}
-        <HomePage />
-      </BrowserRouter>
-    </>
-  );
+    return (
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/places" element={<MSPlacesPage />} />
+                    <Route path="/waiting" element={<MSPlacesWaitingPage />} />
+                    <Route path="/discuss" element={<MSPlacesDiscussPage />} />
+                    <Route path="/live" element={<MSVideoPage />} />
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;

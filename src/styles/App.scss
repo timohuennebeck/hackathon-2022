@@ -1,4 +1,15 @@
-@use './partials/elements' as *;
-@use './partials/mixins' as *;
-@use './partials/typography' as *;
-@use './partials/variables' as *;
+@use "./partials/elements" as *;
+@use "./partials/mixins" as *;
+@use "./partials/typography" as *;
+@use "./partials/variables" as *;
+
+.background {
+    padding: 2.5rem 1rem 5.5rem;
+    background: linear-gradient(#fff 0%, #b3b3b3 100%);
+}
+
+html {
+    background: url("../assets/images/microsoft-teams-video-call.jpg") no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
