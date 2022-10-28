@@ -46,7 +46,7 @@ export default function MSVideoPage() {
                     </div>
                 </div>
                 <div className="video__tools-timer">
-                    <p>10:00</p>
+                    <h3>10:00</h3>
                 </div>
             </div>
         </div>

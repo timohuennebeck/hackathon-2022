@@ -15,7 +15,7 @@
         width: 32.5rem;
 
         &-indv {
-            border: 1px solid green;
+            border: 1px solid #fff;
             width: 9.5rem;
             height: 12.5rem;
         }
@@ -35,12 +35,15 @@
 
     &__tools {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        width: 87.5%;
+        width: 100%;
 
         &-icons {
             display: flex;
+            justify-content: flex-end;
             gap: 2rem;
+            width: 65%;
 
             &-box {
                 width: 2rem;
@@ -50,11 +53,15 @@
             }
 
             &-rectangle {
-                width: 4rem;
+                width: 4.5rem;
                 height: 2rem;
                 background-color: #d9d9d9;
                 border-radius: 0.25rem;
             }
+        }
+
+        &-timer {
+            width: 15%;
         }
     }
 }

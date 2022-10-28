@@ -7,17 +7,15 @@ export default function MSPlacesDiscussPage() {
             <ModalElement />
             <div className="discuss">
                 <div className="discuss__content">
-                    <p>
+                    <p className="discuss__content-paragraph">
                         “If you were left on a deserted island with either your worst enemy or a
                         mirror pointed towards you 24/7, which one would you choose? Why?”
                     </p>
                     <div className="discuss__content-buttons">
-                        <div className="discuss__content-buttons-indv">
-                            <p>Discuss in Public</p>
-                        </div>
-                        <div className="discuss__content-buttons-indv">
-                            <p>Discuss in Private</p>
-                        </div>
+                        <button className="discuss__content-buttons-indv">Discuss in Public</button>
+                        <button className="discuss__content-buttons-indv">
+                            Discuss in Private
+                        </button>
                     </div>
                 </div>
             </div>
