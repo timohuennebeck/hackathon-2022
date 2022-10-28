@@ -5,9 +5,9 @@ import { useNavigate } from "react-router-dom";
 export default function MSPlacesWaitingPage() {
     const navigate = useNavigate();
 
-    setTimeout(function () {
-        window.onload = navigate("/discuss");
-    }, 2000);
+    // setTimeout(function () {
+    //     window.onload = navigate("/discuss");
+    // }, 2000);
 
     return (
         <div className="background">
