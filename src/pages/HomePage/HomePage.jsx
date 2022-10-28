@@ -1,14 +1,14 @@
 import "./HomePage.scss";
 
-import timerIcon from "../../assets/images/317-box.png";
-import videoIcon from "../../assets/images/Camera-off.png";
+import timerIcon from "../../assets/images/317 box.png";
+import videoIcon from "../../assets/images/Camera off.png";
 import micIcon from "../../assets/images/Microphone.png";
-import shareIcon from "../../assets/images/Share-Screen (1).png";
+import shareIcon from "../../assets/images/Share Screen.png";
 import moreIcon from "../../assets/images/More.png";
 import handIcon from "../../assets/images/Hand.png";
 import chatIcon from "../../assets/images/Chat.png";
 import participantsIcon from "../../assets/images/Participants.png";
-import endIcon from "../../assets/images/End-Call.png";
+import endIcon from "../../assets/images/End Call.png";
 import dropMenu from "../../assets/images/dropdown-menu.png";
 
 import { useState } from "react";

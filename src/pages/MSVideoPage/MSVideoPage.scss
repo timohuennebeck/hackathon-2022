@@ -6,18 +6,55 @@
     align-items: center;
     text-align: center;
     padding: 1.5rem;
-    gap: 3.5rem;
 
     &__images {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 32.5rem;
 
         &-indv {
-            border: 1px solid #fff;
-            width: 9.5rem;
-            height: 12.5rem;
+
+            &-1 {
+                background-image: url("../../assets/images/avatar/unsplash_kzZ7DCWausY.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+                border-radius: 1rem 0 0 0;
+            }
+
+            &-2 {
+                background-image: url("../../assets/images/avatar/unsplash_u-SVq2e5PwU.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+            }
+            &-3 {
+                background-image: url("../../assets/images/avatar/unsplash_5K4ZAOMENnY.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+                border-radius: 0 1rem 0 0;
+            }
+            &-4 {
+                background-image: url("../../assets/images/avatar/unsplash_95UF6LXe-Lo.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+                border-radius: 0 0 0 1rem;
+            }
+            &-5 {
+                background-image: url("../../assets/images/avatar/unsplash_KFnvB2ERiwI.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+            }
+            &-6 {
+                background-image: url("../../assets/images/avatar/unsplash_oTweoxMKdkA.png");
+                background-size: cover;
+                width: 20rem;
+                height: 20rem;
+                border-radius: 0 0 1rem 0;
+            }
         }
     }
 
@@ -41,29 +78,25 @@
         width: 100%;
 
         &-icons {
-            display: flex;
-            justify-content: flex-end;
-            gap: 2rem;
-            width: 60%;
+            padding-top: 2rem;
+            width: 100%;
 
-            &-box {
-                width: 2rem;
-                height: 2rem;
-                background-color: #d9d9d9;
-                border-radius: 0.25rem;
-            }
-
-            &-rectangle {
-                width: 4.5rem;
-                height: 2rem;
-                background-color: #d9d9d9;
-                border-radius: 0.25rem;
+            img {
+                height: 3rem;
+                width: 3rem;
             }
         }
+    }
 
-        &-timer {
-            width: 15%;
-            font-size: 1.5rem;
+    &__timer {
+        height: 1rem;
+        display: flex;
+        width: 100%;
+        position: relative;
+
+        span {
+            position: absolute;
+            right: 0px;
         }
     }
 }
