@@ -13,12 +13,16 @@ export default function MSPlacesDiscussPage() {
                         mirror pointed towards you 24/7, which one would you choose? Why?”
                     </p>
                     <div className="discuss__content-buttons">
-                        <Link to="/live" className="discuss__content-buttons-indv">
-                            Discuss in Public
-                        </Link>
-                        <Link to="/live" className="discuss__content-buttons-indv">
-                            Discuss in Private
-                        </Link>
+                        <div className="discuss__hover">
+                            <Link to="/live" className="discuss__content-buttons-indv">
+                                Discuss in Public
+                            </Link>
+                        </div>
+                        <div className="discuss__hover">
+                            <Link to="/live" className="discuss__content-buttons-indv">
+                                Discuss in Private
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

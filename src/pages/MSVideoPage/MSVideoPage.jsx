@@ -1,6 +1,9 @@
 import "./MSVideoPage.scss";
+import Countdown from "react-countdown";
 
 export default function MSVideoPage() {
+    const Completionist = () => <span>You are good to go!</span>;
+
     return (
         <div className="video">
             <div className="video__images">
@@ -46,7 +49,9 @@ export default function MSVideoPage() {
                     </div>
                 </div>
                 <div className="video__tools-timer">
-                    <h3>10:00</h3>
+                    <Countdown date={Date.now() + 600000}>
+                        <Completionist />
+                    </Countdown>
                 </div>
             </div>
         </div>
