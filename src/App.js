@@ -10,13 +10,15 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/places" element={<MSPlacesPage />} />
-                    <Route path="/waiting" element={<MSPlacesWaitingPage />} />
-                    <Route path="/discuss" element={<MSPlacesDiscussPage />} />
-                    <Route path="/live" element={<MSVideoPage />} />
-                </Routes>
+                <div className="ms-image">
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/places" element={<MSPlacesPage />} />
+                        <Route path="/waiting" element={<MSPlacesWaitingPage />} />
+                        <Route path="/discuss" element={<MSPlacesDiscussPage />} />
+                        <Route path="/live" element={<MSVideoPage />} />
+                    </Routes>
+                </div>
             </BrowserRouter>
         </>
     );

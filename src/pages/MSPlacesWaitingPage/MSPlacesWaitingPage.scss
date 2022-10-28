@@ -12,6 +12,13 @@
         text-align: center;
         color: #969696;
         gap: 1rem;
+        padding: 1.5rem 1rem;
+
+        &-paragraph {
+            padding-top: 1rem;
+            font-size: 2rem;
+            line-height: 2.25rem;
+        }
 
         &-header {
             font-weight: 500;
