@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
     padding: 1.5rem;
-    gap: 2rem;
+    gap: 3.5rem;
 
     &__images {
         display: flex;
@@ -29,6 +29,7 @@
         }
 
         &-paragraph {
+            padding-top: 1rem;
             font-style: italic;
         }
     }
@@ -43,7 +44,7 @@
             display: flex;
             justify-content: flex-end;
             gap: 2rem;
-            width: 65%;
+            width: 60%;
 
             &-box {
                 width: 2rem;
@@ -62,6 +63,7 @@
 
         &-timer {
             width: 15%;
+            font-size: 1.5rem;
         }
     }
 }
