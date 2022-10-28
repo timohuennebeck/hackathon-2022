@@ -2,7 +2,7 @@
     background-color: #ededed;
     border: 2px solid #afafaf;
     border-radius: 0.5rem;
-    padding: 3rem;
+    padding: 5.5rem 2.75rem;
     margin: 0 7.5rem;
 
     &__content {
@@ -10,10 +10,12 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 3.85rem;
 
         &-paragraph {
             font-style: italic;
+            font-size: 2rem;
+            line-height: 2.25rem;
         }
 
         &-buttons {
@@ -27,6 +29,13 @@
                 color: #646464;
                 text-decoration: none;
             }
+        }
+    }
+
+    &__hover {
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.05)
         }
     }
 }
