@@ -1,0 +1,46 @@
+.final {
+    background-color: #ededed;
+    border: 2px solid #afafaf;
+    border-radius: 0.5rem;
+    padding: 5.5rem 2.75rem;
+    margin: 0 7.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__star {
+        padding-top: 1rem;
+
+        &-indv {
+            width: 2.5rem;
+        }
+    }
+
+    &__paragraph {
+        flex-wrap: wrap;
+        width: 75%;
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+
+        &-link {
+            border: 1px solid #afafaf;
+            border-radius: 0.5rem;
+            padding: 0.75rem 2.75rem;
+            color: #646464;
+            text-decoration: none;
+            font-size: 1.5rem;
+
+            &:hover {
+                background-color: #b9b9b9;
+            }
+        }
+    }
+}
