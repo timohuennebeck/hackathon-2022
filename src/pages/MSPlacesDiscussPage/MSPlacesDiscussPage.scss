@@ -1,0 +1,26 @@
+.discuss {
+    background-color: #EDEDED;
+    border: 2px solid #afafaf;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    margin: 0 7.5rem;
+
+    &__content {
+        color: #646464;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        &-buttons {
+            display: flex;
+            justify-content: space-around;
+
+            &-indv {
+                border: 1px solid #afafaf;
+                border-radius: .5rem;
+                padding: .5rem;
+            }
+        }
+    }
+}

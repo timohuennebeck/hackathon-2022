@@ -18,37 +18,37 @@
 // TEXT-STYLE MIXINS
 
 @mixin text__page-header {
-  font-family: Segoe-Bold;
+  font-family: Segoe-Regular;
   font-size: 1.75rem;
   line-height: 2.25rem;
-  font-weight: 600;
+  font-weight: 400;
 
   @include tablet() {
-    font-size: 2rem;
+    font-size: 3.5rem;
     line-height: 2.5rem;
   }
 }
 
 @mixin text__subheader {
-  font-family: Segoe-Bold;
+  font-family: Segoe-Regular;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-weight: 600;
+  font-weight: 400;
 
   @include tablet() {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 2rem;
   }
 }
 
 @mixin text__links {
-  font-family: Segoe-Bold;
+  font-family: Segoe-Regular;
   font-size: 0.813rem;
   line-height: 1.25rem;
-  font-weight: 600;
+  font-weight: 400;
 
   @include tablet() {
-    font-size: 0.875rem;
+    font-size: 1.475rem;
     line-height: 1.375rem;
   }
 }
