@@ -1,0 +1,28 @@
+.discuss {
+  background-color: #ededed;
+  border: 2px solid #afafaf;
+  border-radius: 0.5rem;
+  padding: 3rem;
+  margin: 0 7.5rem;
+}
+.discuss__content {
+  color: #646464;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.discuss__content-paragraph {
+  font-style: italic;
+}
+.discuss__content-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.discuss__content-buttons-indv {
+  border: 1px solid #afafaf;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  color: #646464;
+  text-decoration: none;
+}/*# sourceMappingURL=MSPlacesDiscussPage.css.map */
