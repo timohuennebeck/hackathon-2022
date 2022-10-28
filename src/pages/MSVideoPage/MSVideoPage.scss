@@ -13,7 +13,6 @@
         justify-content: center;
 
         &-indv {
-
             &-1 {
                 background-image: url("../../assets/images/avatar/unsplash_kzZ7DCWausY.png");
                 background-size: cover;
@@ -62,6 +61,7 @@
         margin: 0 10rem;
 
         &-header {
+            padding-top: 2rem;
             font-weight: 600;
         }
 
@@ -93,6 +93,10 @@
         display: flex;
         width: 100%;
         position: relative;
+
+        &-link {
+            color: #fff;
+        }
 
         span {
             position: absolute;

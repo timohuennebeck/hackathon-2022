@@ -14,19 +14,11 @@ export default function MSPlacesPage() {
                 </div>
                 <p className="ms-places__option">Choose an option below:</p>
                 <div className="ms-places__boxes">
-                    <div className="ms-places__boxes-indv">
-                        <p>Chill</p>
-                    </div>
-                    <div className="ms-places__boxes-indv">
-                        <p>Play</p>
-                    </div>
-                    <div className="ms-places__boxes-indv">
-                        <p>Communicate</p>
-                    </div>
+                    <div className="ms-places__boxes-indv image-1"></div>
+                    <div className="ms-places__boxes-indv image-2"></div>
+                    <div className="ms-places__boxes-indv image-3"></div>
                     <Link to="/waiting" className="remove-link">
-                        <div className="ms-places__boxes-indv">
-                            <p>Connect</p>
-                        </div>
+                        <div className="ms-places__boxes-indv image-4"></div>
                     </Link>
                 </div>
             </div>

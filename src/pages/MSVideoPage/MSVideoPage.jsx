@@ -8,13 +8,7 @@ import Hand from "../../assets/images/Hand.png";
 import Chat from "../../assets/images/Chat.png";
 import Participants from "../../assets/images/Participants.png";
 import EndCall from "../../assets/images/End Call.png";
-
-import Person1 from "../../assets/images/avatar/unsplash_5K4ZAOMENnY.png";
-import Person2 from "../../assets/images/avatar/unsplash_95UF6LXe-Lo.png";
-import Person3 from "../../assets/images/avatar/unsplash_KFnvB2ERiwI.png";
-import Person4 from "../../assets/images/avatar/unsplash_kzZ7DCWausY.png";
-import Person5 from "../../assets/images/avatar/unsplash_oTweoxMKdkA.png";
-import Person6 from "../../assets/images/avatar/unsplash_u-SVq2e5PwU.png";
+import { Link } from "react-router-dom";
 
 export default function MSVideoPage() {
     const Completionist = () => <span>You are good to go!</span>;
@@ -37,9 +31,11 @@ export default function MSVideoPage() {
                 </p>
             </div>
             <div className="video__timer">
-                <Countdown date={Date.now() + 600000}>
-                    <Completionist />
-                </Countdown>
+                <Link to="/times-up" className="video__timer-link">
+                    <Countdown date={Date.now() + 600000}>
+                        <Completionist />
+                    </Countdown>
+                </Link>
             </div>
             <div className="video__tools">
                 <div className="video__tools-icons">

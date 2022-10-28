@@ -20,7 +20,7 @@ export default function MSFinalPage() {
                     <img className="final__star-indv" src={Star} alt="" />
                 </div>
                 <div className="final__buttons">
-                    <Link className="final__buttons-link">Skip</Link>
+                    <Link to="/" className="final__buttons-link">Skip</Link>
                 </div>
             </div>
         </div>
