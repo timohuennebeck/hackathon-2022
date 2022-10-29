@@ -7,7 +7,7 @@ export default function MSPlacesWaitingPage() {
 
     setTimeout(function () {
         window.onload = navigate("/discuss");
-    }, 2000);
+    }, 4000);
 
     return (
         <div className="background">

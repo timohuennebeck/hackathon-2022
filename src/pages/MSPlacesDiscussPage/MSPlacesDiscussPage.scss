@@ -1,5 +1,6 @@
+
 .discuss {
-    background-color: #ededed;
+    background-color: #DFF4FE;
     border: 2px solid #afafaf;
     border-radius: 0.5rem;
     padding: 5.5rem 2.75rem;
@@ -16,6 +17,7 @@
             font-style: italic;
             font-size: 2rem;
             line-height: 2.25rem;
+            color: #023E5A;
         }
 
         &-buttons {
@@ -26,7 +28,7 @@
                 border: 1px solid #afafaf;
                 border-radius: 0.5rem;
                 padding: 0.75rem 0.5rem;
-                color: #646464;
+                color: #023E5A;
                 text-decoration: none;
 
                 &:hover {
